@@ -42,20 +42,3 @@ Dynamic pricing engines often face a tension between chasing immediate reward an
 
 ---
 
-## Project Structure
-
-```text
-OptiPrice/
-├── README.md
-├── requirements.txt
-├── main.py                  # Entry point to run simulations and generate outputs
-├── bandits/                 # Multi-armed bandit policy implementations
-│   ├── epsilon_greedy.py
-│   ├── ucb.py
-│   └── thompson_sampling.py
-├── guardrails/              # Mathematical volatility jump constraint logic
-│   └── volatility.py
-├── simulation/              # Environment, reward dynamics, and simulation loop
-│   └── simulator.py
-└── visualization/           # Plotly charts and performance summaries
-    └── plots.py
